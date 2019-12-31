@@ -57,7 +57,7 @@ public class Robot extends TimedRobot {
   }
 
   public void teleopPeriodic() {
-    myDrive.arcadeDrive(Controller.getRawAxis(1) *0.7, Controller.getRawAxis(0)*0.7);
+    myDrive.arcadeDrive(Controller.getRawAxis(1) *0.5, Controller.getRawAxis(0)*0.5);
 
 
   }
